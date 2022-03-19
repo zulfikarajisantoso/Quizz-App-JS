@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Quizz App</title>
+</head>
+<body>
+    <div class="app">   
+        <div class="start">
+            <button class="ku">Mulai Kuis</button>
+        </div>
+        
+        <!-- halam depan -->
+        <div class="informasi ">
+            <div class="judul">Informasi Kuis</div>
+            <div class="listaturan">
+            
+                    <div class="info">-> Anda mempunyai waktu <span class="detik">30 detik </span> untuk mengerjakan kuis</div>
+                    <div>-> Anda tidak bisa merubah jawaban anda setelah memilihnya</div>
+                    <div>-> Anda tidak bisa memasukkan 2 jawaban pada kuis</div>
+                
+            </div>
+            
+            <div class="kardluar">
+                <div class="tombol">
+                    <button class="keluarkuis">Keluar</button>
+                    <button class="lanjutkuis">Lanjut</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- halam quiz -->
+
+
+        <div class="kuisqard ">
+            <div class="gariswaktu"></div>
+          
+            <header>
+                <h4 class="judulkuis">Asah Kemampuan</h4>
+               <div class="time">
+                <div class="waktu">
+                    <h5 class="judulwaktu">Waktu anda</h5>
+                    <div class="waktukuis">10
+
+                    </div>
+                </div>
+               </div>
+            </header>
+            <section>
+                <div class="pertanyaankuis">
+
+                </div>
+                <div class="pilihankuis">
+
+                </div>
+            </section>
+            <div class="tengahkuis">
+                <div class="footer">
+                    <div class="kuiskeberapa">
+                  
+                    </div>
+                    <button class="lanjutkan show">Lanjut</button>
+    
+                </div>
+            </div>
+        </div>
+
+        <div class="akhirkuis ">
+            <div class="icon">     
+       
+                <i class="icon1 fas fa-flag-checkered"></i>
+            </div>
+            <div class="selesaikuis">Kuis Selesai</div>
+            <div class="hasilkuis">
+             
+            </div>
+
+            <div class="tombolakhir">
+                <button class="mainlagi">Main Lagi</button>
+                <button class="selesaimain">Capek :)</button>
+            </div>
+
+        </div>
+    </div>  
+
+
+    <script src="script.js"></script>
+    <script src="datajs/datakuis.js"></script>
+
+</body>
+</html>
