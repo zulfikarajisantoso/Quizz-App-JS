@@ -225,9 +225,10 @@ mainlagi.onclick = ()=>{
     queCounter(que_numb); //passing que_numb value to queCounter
     clearInterval(counter); //clear counter
     clearInterval(counterLine); //clear counterLine
-    startTimer(timeValue); 
+    startTimer(waktunya); 
     startTimerLine(widthValue); //calling startTimerLine function
-  
+
+   
     lanjutkan.classList.remove("show"); 
 }
 
